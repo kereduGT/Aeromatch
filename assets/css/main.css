@@ -2,7 +2,8 @@ body {
     font-family: Arial,Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    background-image: url("assets/images/overlay.png"), url("assets/images/bg2.jpg");
+    /*background-image: url("assets/images/overlay.png"), url("assets/images/bg2.jpg");*/
+    background-color: #557B83;
     background-repeat: repeat, no-repeat;
     background-size: auto, 100% 100%;
     background-attachment: fixed;
@@ -26,7 +27,7 @@ body {
     align-content: center;
     box-shadow: 0 4px 8px 0 rgba(1, 9, 45, 0.2);
     transition: 0.3s;
-    background-color: #f5ba70;
+    background-color: #E5EFC1;
     opacity: 100%;
 }
   
@@ -39,6 +40,19 @@ body {
   .container {
     padding: 2px 16px 18px;
     justify-content: center;
+  }
+
+  .results{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(1, 9, 45, 0.2);
+    transition: 0.3s;
+    background-color: #E5EFC1;
+    opacity: 100%;
   }
 
   
