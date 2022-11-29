@@ -4,30 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css" />
     <title>Aeromatch</title>
 </head>
+
+<style>
+    body{
+        background-image: url("assets/images/overlay.png"), url("assets/images/bg2.jpg");
+        background-repeat: repeat, no-repeat;
+        background-size: auto, 100% 100%;
+        background-attachment: fixed;
+        overflow-y: scroll;
+    }
+</style>
+
 <body>
 
-    <h1>Where you want to go??</h1>
-    <h2>From: </h2>
-    <input> <br>    <br>
-    <h2>To: </h2>
-    <input> <br>    <br>
-    <button onclick="myFunc()"> Search </button>
-
-    <style>
-        body{
-            background-image: url('image.jpg');
-            background-attachment: fixed;
-            background-size: 100% 100%;
-        }
-    </style>
-
     <script>
-        function myFunc(){
+        function myFunc() {
             alert("Testing")
         }
 
     </script>
+
+ <div class="icon">
+        <img src="plane.png"/>
+ </div>
+
+    <div class="card">
+        <div class="container">
+            <h2>Flights</h2>
+            <label for="f">From:</label>
+            <input> <br>    <br>
+            <label for="f">  To:</label>
+            <input> <br>    <br>
+            <button onclick="myFunc()"> Search </button>
+        </div>
+    </div>
+
+
+
+
 </body>
+
 </html>
